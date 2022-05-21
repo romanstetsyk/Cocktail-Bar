@@ -41,7 +41,6 @@ function getFetch() {
 					</div>
 				</div>
 				`
-				console.log(html);
 				owlcarousel.insertAdjacentHTML('beforeend', html);
 			}
 			
