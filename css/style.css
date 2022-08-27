@@ -8137,7 +8137,8 @@ body {
   font-size: 14px;
   line-height: 1.8;
   font-weight: normal;
-  color: gray; }
+  
+ }
 
 a {
   -webkit-transition: .3s all ease;
@@ -8177,7 +8178,28 @@ h1, h2, h3, h4, h5,
   padding-bottom: 0; }
 
 .heading-section {
-  font-size: 28px; }
+  font-family: 'Pacifico', cursive;
+  font-size: 88px;
+  color: #ffc6be;
+  transform: rotate(var(--rotate));
+  /* animation: neon 5s infinite; */
+}
+
+@keyframes neon {
+  0%,
+  39%,
+  41%,
+  59%,
+  61%,
+  100% {
+    text-shadow: #fff 0 0 12px, #ff3aad 0 0 24px, #ff3aad 0 0 36px;
+  }
+
+  40%,
+  60% {
+    /* text-shadow: none; */
+  }
+}
 
 .img {
   background-size: cover;
